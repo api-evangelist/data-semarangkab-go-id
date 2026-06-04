@@ -1,0 +1,19 @@
+name: Satu Data Semarang Regency
+description: Satu Data Semarang Regency CKAN open-data API live-verification for APIs.json cataloging.
+url: https://raw.githubusercontent.com/api-evangelist/data-semarangkab-go-id/refs/heads/main/review.yml
+created: '2026-06-04'
+modified: '2026-06-04'
+reviews:
+  - date: '2026-06-04'
+    rating: 4
+    summary: >-
+      Satu Data Semarang Regency runs CKAN and exposes a live, standardized open-data catalog API. The
+      endpoint was probed and returned a valid CKAN JSON response reporting approximately 467 datasets (CKAN version 2.10.1).
+      Because it runs CKAN, the full standard action/search API surface is available and consistent with all other CKAN portals.
+    endpoints:
+      - url: https://data.semarangkab.go.id/ckan/api/3/action/status_show
+        status: 200
+        note: Live CKAN API response verified during inventory probe.
+      - url: https://data.semarangkab.go.id/ckan
+        status: 200
+        note: Portal home.
