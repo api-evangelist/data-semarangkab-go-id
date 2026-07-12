@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.semarangkab.go.id/ckan/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/data-semarangkab-go-id-domain-security.yml
   - type: Website
     url: https://data.semarangkab.go.id/ckan
   - type: Documentation
